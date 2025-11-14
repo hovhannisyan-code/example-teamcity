@@ -18,6 +18,12 @@
 				<url>http://158.160.19.43:8081/repository/maven-releases/</url>
 		</repository>
 	</distributionManagement>
+	<repositories>
+		<repository>
+			<id>nexus</id>
+			<url>http://158.160.19.43:8081/repository/maven-public/</url>
+		</repository>
+	</repositories>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
